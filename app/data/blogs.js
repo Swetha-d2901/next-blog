@@ -1,0 +1,185 @@
+
+const blogsData = [
+  {
+    id: 1,
+    title: 'First Post',
+    image: 'blog1.jpg',
+    content: 'Welcome to the first blog post. This is a sample introduction.',
+  },
+  {
+    id: 2,
+    title: 'Second Post',
+    image: 'blog2.jpg',
+    content: 'Here what makes this post exciting and insightful!',
+  },
+  {
+    id: 3,
+    title: 'third Post',
+    image: 'blog3.jpg',
+    content: 'Welcome to the first blog post. This is a sample introduction.',
+  },
+  {
+    id: 4,
+    title: 'four Post',
+    image: 'blog4.jpg',
+    content: 'Here what makes this post exciting and insightful!',
+  },
+  {
+    id: 5,
+    title: 'Five Post',
+    image: 'blog5.jpg',
+    content: 'Welcome to the first blog post. This is a sample introduction.',
+  },
+  {
+    id: 6,
+    title: 'six Post',
+    image: 'blog6.jpg',
+    content: 'Here what makes this post exciting and insightful!',
+  },
+  {
+    id: 7,
+    title: 'seven Post',
+    image: 'blog7.jpg',
+    content: 'Welcome to the first blog post. This is a sample introduction.',
+  },
+  {
+    id: 8,
+    title: 'eight Post',
+    image: 'blog8.jpg',
+    content: 'Here what makes this post exciting and insightful!',
+  },
+  {
+    id: 9,
+    title: 'nine Post',
+    image: 'blog9.jpg',
+    content: 'Welcome to the first blog post. This is a sample introduction.',
+  },
+  {
+    id: 10,
+    title: 'ten Post',
+    image: 'blog10.jpg',
+    content: 'Here what makes this post exciting and insightful!',
+  },
+  {
+    id: 11,
+    title: 'eleven Post',
+    image: 'blog1.jpg',
+    content: 'Welcome to the first blog post. This is a sample introduction.',
+  },
+  {
+    id: 12,
+    title: 'twelve Post',
+    image: 'blog2.jpg',
+    content: 'Here what makes this post exciting and insightful!',
+  },
+  {
+    id: 13,
+    title: 'thirteen Post',
+    image: 'blog3.jpg',
+    content: 'Welcome to the first blog post. This is a sample introduction.',
+  },
+  {
+    id: 14,
+    title: 'fourteen Post',
+    image: 'blog4.jpg',
+    content: 'Here what makes this post exciting and insightful!',
+  },
+  {
+    id: 15,
+    title: 'Fifteen Post',
+    image: 'blog5.jpg',
+    content: 'Welcome to the first blog post. This is a sample introduction.',
+  },
+  {
+    id: 16,
+    title: 'sixteen Post',
+    image: 'blog6.jpg',
+    content: 'Here what makes this post exciting and insightful!',
+  },
+  {
+    id: 17,
+    title: 'seventeen Post',
+    image: 'blog7.jpg',
+    content: 'Welcome to the first blog post. This is a sample introduction.',
+  },
+  {
+    id: 18,
+    title: 'eighteen Post',
+    image: 'blog8.jpg',
+    content: 'Here what makes this post exciting and insightful!',
+  },
+  {
+    id: 19,
+    title: 'nineteen Post',
+    image: 'blog9.jpg',
+    content: 'Welcome to the first blog post. This is a sample introduction.',
+  },
+  {
+    id: 20,
+    title: 'twentyPost',
+    image: 'blog10.jpg',
+    content: 'Here what makes this post exciting and insightful!',
+  },
+  {
+    id: 21,
+    title: 'twenty one Post',
+    image: 'blog1.jpg',
+    content: 'Welcome to the first blog post. This is a sample introduction.',
+  },
+  {
+    id: 22,
+    title: 'Second Post',
+    image: 'blog2.jpg',
+    content: 'Here what makes this post exciting and insightful!',
+  },
+  {
+    id: 23,
+    title: 'third Post',
+    image: 'blog3.jpg',
+    content: 'Welcome to the first blog post. This is a sample introduction.',
+  },
+  {
+    id: 54,
+    title: 'four Post',
+    image: 'blog4.jpg',
+    content: 'Here what makes this post exciting and insightful!',
+  },
+  {
+    id: 85,
+    title: 'Five Post',
+    image: 'blog5.jpg',
+    content: 'Welcome to the first blog post. This is a sample introduction.',
+  },
+  {
+    id: 65,
+    title: 'six Post',
+    image: 'blog6.jpg',
+    content: 'Here what makes this post exciting and insightful!',
+  },
+  {
+    id: 27,
+    title: 'seven Post',
+    image: 'blog7.jpg',
+    content: 'Welcome to the first blog post. This is a sample introduction.',
+  },
+  {
+    id: 48,
+    title: 'eight Post',
+    image: 'blog8.jpg',
+    content: 'Here what makes this post exciting and insightful!',
+  },
+  {
+    id: 69,
+    title: 'nine Post',
+    image: 'blog9.jpg',
+    content: 'Welcome to the first blog post. This is a sample introduction.',
+  },
+  {
+    id: 50,
+    title: 'ten Post',
+    image: 'blog10.jpg',
+    content: 'Here what makes this post exciting and insightful!',
+  }
+];
+
+export default blogsData;
