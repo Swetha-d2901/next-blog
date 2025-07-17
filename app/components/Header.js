@@ -6,7 +6,8 @@ export default function Header() {
   const router = useRouter();
 
   const handleLogout = () => {
-    // You can clear a cookie or localStorage here if needed
+    localStorage.removeItem('isAdmin');
+    localStorage.removeItem('adminName');
     router.push('/');
   };
 

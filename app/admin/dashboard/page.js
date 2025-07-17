@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import blogs from '../../data/blogs'; // Sync with initial data
 
 export default function AdminDashboard() {
   const router = useRouter();
@@ -23,16 +24,12 @@ export default function AdminDashboard() {
     if (storedBlogs) {
       setBlogList(JSON.parse(storedBlogs));
     } else {
-      const initialBlogs = [
-        { id: 1, title: 'First Blog', content: 'Intro to the blog world!', image: 'blog1.jpg' },
-        { id: 2, title: 'Second Blog', content: 'Going deeper into content.', image: 'blog2.jpg' }
-      ];
-      localStorage.setItem('blogList', JSON.stringify(initialBlogs));
-      setBlogList(initialBlogs);
+      localStorage.setItem('blogList', JSON.stringify(blogs));
+      setBlogList(blogs);
     }
   }, []);
 
-  const deleteBlog = id => {
+  const deleteBlog = (id) => {
     const updatedList = blogList.filter(blog => blog.id !== id);
     localStorage.setItem('blogList', JSON.stringify(updatedList));
     setBlogList(updatedList);
@@ -42,7 +39,6 @@ export default function AdminDashboard() {
     <main style={{ padding: '2rem' }}>
       <h1>🛠️ Welcome {adminName || 'Admin'}!</h1>
       <h2>Blog Dashboard</h2>
-
       {blogList.length === 0 ? (
         <p>No blogs found.</p>
       ) : (

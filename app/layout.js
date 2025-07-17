@@ -1,4 +1,5 @@
 import '../styles/globals.css';
+import Link from 'next/link';
 
 export const metadata = {
   title: 'My Blog',
@@ -12,12 +13,12 @@ export default function RootLayout({ children }) {
         <header>
           <h1>📰 My Blog</h1>
           <nav>
-            <a href="/">Home</a> | <a href="/admin">Admin</a>
+            <Link href="/">Home</Link> | <Link href="/admin/dashboard">Admin</Link>
           </nav>
         </header>
         {children}
         <footer>
-          <p>&copy; {new Date().getFullYear()} BlogCo</p>
+          <p>© {new Date().getFullYear()} BlogCo</p>
         </footer>
       </body>
     </html>
