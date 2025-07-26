@@ -2,7 +2,7 @@
 import { useEffect, useState, use } from 'react';
 
 export default function BlogDetail(props) {
-  const params = use(props.params); // Correctly unwrap the promise
+  const params = use(props.params); 
   const [blog, setBlog] = useState(null);
 
   useEffect(() => {
@@ -18,7 +18,7 @@ export default function BlogDetail(props) {
   if (!blog) {
     return (
       <main style={{ padding: '2rem' }}>
-        <h1>❌ Blog Not Found</h1>
+        <h1>Blog Not Found</h1>
       </main>
     );
   }
